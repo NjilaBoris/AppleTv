@@ -1,7 +1,16 @@
 import React from "react";
+import Header from "./components/layouts/Header";
+import Hero from "./components/section/Hero";
 
 const App = () => {
-  return <div className="!mt-0.5">App</div>;
+  return (
+    <>
+      <main>
+        <Header />
+        <Hero />
+      </main>
+    </>
+  );
 };
 
 export default App;
