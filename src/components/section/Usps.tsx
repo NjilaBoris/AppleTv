@@ -1,9 +1,9 @@
 import Container from "../layouts/Container";
 import { FadeIn } from "../layouts/FadeIn";
 
-export const Usps = () => {
+const Usps = () => {
   return (
-    <Container className="relative z-10 max-w-[692px] space-y-12 py-36 text-3xl font-bold text-white md:text-4xl">
+    <Container className="relative z-10  !max-w-[692px] !space-y-12 !py-36 text-3xl font-bold text-white md:text-4xl">
       <FadeIn>
         <p>New Apple Originals every month — always ad‑free.</p>
       </FadeIn>
@@ -22,3 +22,4 @@ export const Usps = () => {
     </Container>
   );
 };
+export default Usps;
